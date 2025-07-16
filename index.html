@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Healthcare Management System</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <h1>Healthcare Management System</h1>
+    <ul>
+      <li><a href="#patient">Patient Registration</a></li>
+      <li><a href="#doctor">Doctor Registration</a></li>
+      <li><a href="#appointment">Book Appointment</a></li>
+    </ul>
+  </nav>
+
+  <section id="patient">
+    <h2>Patient Registration</h2>
+    <form id="patientForm">
+      <input type="text" id="pName" placeholder="Full Name" required/>
+      <input type="number" id="pAge" placeholder="Age" required/>
+      <select id="pGender" required>
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+      <input type="text" id="pAddress" placeholder="Address" required/>
+      <input type="tel" id="pContact" placeholder="Contact Number" required/>
+      <button type="submit">Register Patient</button>
+    </form>
+  </section>
+
+  <section id="doctor">
+    <h2>Doctor Registration</h2
